@@ -1,6 +1,6 @@
 body {
   background-color: aliceblue;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,14 @@ body {
 #tekst {
   width: 50%;
 }
-#nav a {
+
+ul {
+  display: flex;
+}
+li {
   margin: 0 20px;
   font-size: 1.3rem;
+}
+#about-me li {
+  list-style-type: none;
 }
