@@ -1,4 +1,4 @@
-body {
+main {
   background-color: aliceblue;
   min-height: 100vh;
   display: flex;
@@ -19,4 +19,12 @@ li {
 }
 #about-me li {
   list-style-type: none;
+}
+form {
+  border: 1px dotted black;
+  padding: 20px 50px;
+  background-color: antiquewhite;
+}
+button {
+  padding: 10px;
 }
