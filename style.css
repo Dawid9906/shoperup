@@ -1,13 +1,27 @@
+html {
+  font-family: "Roboto";
+}
+header {
+  background-color: aqua;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 10px;
+  border-bottom: 2px solid red;
+}
 main {
   background-color: aliceblue;
   min-height: 100vh;
+}
+.container {
+  width: 980px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-#tekst {
-  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
 }
 
 ul {
