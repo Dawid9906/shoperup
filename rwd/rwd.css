@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.gap {
+  gap: 30px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 10px;
+}
+@media (max-width: 768px) {
+  .sm-column {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sm-column img {
+    width: 40px;
+    margin-top: 20px;
+  }
+}
+.slider {
+  background-image: url("https://placehold.co/1000x200");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  padding-top: 100px;
+}
+.card {
+  width: 300px;
+}
+button {
+  display: inline-block;
+  width: 49%;
+  padding: 5px 0;
+}
+.green {
+  background-color: green;
+  color: white;
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .three-boxes {
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 20px 0;
+    width: 40%;
+  }
+  .card img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  section {
+    padding-top: 50px;
+  }
+}
+.image-text img {
+  float: left;
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .image-text img {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.w50 {
+  width: 50%;
+}
+.full-width {
+  display: inline-block;
+  min-width: 100%;
+}
+.column-card {
+  padding-bottom: 40px;
+}
+.column-card p {
+  margin-left: 15px;
+}
+@media (max-width: 1200px) {
+  .m-column {
+    flex-direction: column;
+  }
+  .w50 {
+    width: 100%;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+  .full-width {
+    min-width: auto;
+    margin: 0 auto;
+  }
+}
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 50px;
+}
+.copyrights {
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+@media (max-width: 1200px) {
+  footer .flex {
+    flex-wrap: wrap;
+  }
+  footer ul {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  footer .flex {
+    flex-direction: column;
+  }
+}
