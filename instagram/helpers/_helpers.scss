@@ -1,0 +1,34 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.border-radius {
+  border-radius: 100%;
+}
+.overflow {
+  overflow-x: scroll;
+}
+.border-pink {
+  border: 2px solid $borderColor;
+}
+.border-grey {
+  border: 1px solid $primaryColor;
+  border-radius: 10px;
+}
+.space-between {
+  justify-content: space-between;
+}
+.grey {
+  color: $fourthColor;
+}
+.border-top-grey {
+  border-top: 1px solid $secondaryColor;
+}
+.blue {
+  color: $fifthColor;
+}
+.font-14 {
+  font-size: 13px;
+}
