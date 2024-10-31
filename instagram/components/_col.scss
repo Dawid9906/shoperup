@@ -1,0 +1,13 @@
+.col {
+  &-3 {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &-9 {
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
