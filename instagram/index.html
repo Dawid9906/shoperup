@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="flex">
+      <img src="images/logo.svg" alt="logo" />
+
+      <div class="input-group">
+        <span class="input-group-text" id="basic-addon1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+            ></path>
+          </svg>
+        </span>
+        <input
+          id="input-search"
+          type="text"
+          class="form-control"
+          placeholder="Szukaj"
+          aria-label="Input group example"
+          aria-describedby="basic-addon1"
+        />
+      </div>
+      <ul class="flex">
+        <li><img src="images/icons/home.svg" alt="home icon" /></li>
+        <li><img src="images/icons/send.svg" alt="send icon" /></li>
+        <li><img src="images/icons/add.svg" alt="add icon" /></li>
+        <li><img src="images/icons/heart.svg" alt="heart icon" /></li>
+        <li>
+          <img
+            class="border-radius"
+            src="images/users/mark.jpeg"
+            width="24px"
+            alt=""
+          />
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <div class="border-grey users-bar">
+              <ul class="flex overflow">
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/john.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>John Doe</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/will.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Will Smith</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/johny.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Johny</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/lisa.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Lisa</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/amanda.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Amanda</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/cristiano.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Cristiano</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/paul.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Paul</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/martha.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Martha</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/joanna.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Joanna</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/betty.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Betty</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/sophie.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Sophie</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/ursula.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>Ursula</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/user.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>John Doe</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      class="border-radius border-pink"
+                      src="images/users/john.jpeg"
+                      width="50px "
+                      alt=""
+                    />
+                    <p>John Doe</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="user-card border-grey mt-5 py-4">
+              <div class="flex space-between px-4">
+                <div class="flex mb-4">
+                  <img
+                    class="border-pink border-radius me-3"
+                    src="images/users/john.jpeg"
+                    width="50px"
+                    alt=""
+                  />
+                  <div class="mt-3">
+                    <p class="text-start">
+                      <span class="fw-bold">John Doe</span> <br />
+                      <span class="grey">Szczecin, Polska</span>
+                    </p>
+                  </div>
+                </div>
+                <img src="images/icons/menu.svg" alt="" />
+              </div>
+              <img src="images/photos/gielda.jpeg" width="100%" alt="" />
+              <p>
+                <ul class="flex justify-content-start">
+                  <li class="ms-0"><img src="images/icons/heart.svg" alt=""></li>
+                  <li><img src="images/icons/comment.svg" alt=""></li>
+                  <li><img src="images/icons/send.svg" alt=""></li>
+                </ul>
+              </p>
+              <p class="fw-bold ps-4">
+                Liczba polubień: 2
+              </p>
+              <p class="ps-4 pe-2"> 
+                <span class="fw-bold">Will Smith:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque voluptatum doloremque similique eligendi temporibus excepturi officia commodi neque cum accusantium.sit amet consectetur adipisicing elit. Atque voluptatum doloremque similique eligendi temporibus excepturi officia commodi neque cum accusantium! <span class="grey">więcej</span>
+              </p>
+              <p class="flex justify-content-start ps-4 mt-5 pt-5 border-top-grey">
+                <img src="images/icons/smile.svg" alt="">
+                <input class="form-control ms-2"  id="send-message-input" placeholder="Dodaj komentarz...">
+              </p>
+            </div>
+            <div class="user-card border-grey mt-5 py-4">
+              <div class="flex space-between px-4">
+                <div class="flex mb-4">
+                  <img
+                    class="border-pink border-radius me-3"
+                    src="images/users/lisa.jpeg"
+                    width="50px"
+                    alt=""
+                  />
+                  <div class="mt-3">
+                    <p class="text-start">
+                      <span class="fw-bold">Lisa</span> <br />
+                      <span class="grey">Kraków, Polska</span>
+                    </p>
+                  </div>
+                </div>
+                <img src="images/icons/menu.svg" alt="" />
+              </div>
+              <img src="images/photos/stoisko.jpeg" width="100%" alt="" />
+              <p>
+                <ul class="flex justify-content-start">
+                  <li class="ms-0"><img src="images/icons/heart.svg" alt=""></li>
+                  <li><img src="images/icons/comment.svg" alt=""></li>
+                  <li><img src="images/icons/send.svg" alt=""></li>
+                </ul>
+              </p>
+              <p class="fw-bold ps-4">
+                Liczba polubień: 2
+              </p>
+              <p class="ps-4 pe-2"> 
+                <span class="fw-bold">Will Smith:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque voluptatum doloremque similique eligendi temporibus excepturi officia commodi neque cum accusantium.sit amet consectetur adipisicing elit. Atque voluptatum doloremque similique eligendi temporibus excepturi officia commodi neque cum accusantium! <span class="grey">więcej</span>
+              </p>
+              <p class="flex justify-content-start ps-4 mt-5 pt-5 border-top-grey">
+                <img src="images/icons/smile.svg" alt="">
+                <input class="form-control ms-2"  id="send-message-input" placeholder="Dodaj komentarz...">
+              </p>
+            </div>
+            <div class="user-card border-grey my-5 py-4">
+              <div class="flex space-between px-4">
+                <div class="flex mb-4">
+                  <img
+                    class="border-pink border-radius me-3"
+                    src="images/users/cristiano.jpeg"
+                    width="50px"
+                    alt=""
+                  />
+                  <div class="mt-3">
+                    <p class="text-start">
+                      <span class="fw-bold">Cristiano</span> <br />
+                      <span class="grey">Kraków, Polska</span>
+                    </p>
+                  </div>
+                </div>
+                <img src="images/icons/menu.svg" alt="" />
+              </div>
+              <img src="images/photos/presentation.jpeg" width="100%" alt="" />
+              <p>
+                <ul class="flex justify-content-start">
+                  <li class="ms-0"><img src="images/icons/heart.svg" alt=""></li>
+                  <li><img src="images/icons/comment.svg" alt=""></li>
+                  <li><img src="images/icons/send.svg" alt=""></li>
+                </ul>
+              </p>
+              <p class="fw-bold ps-4">
+                Liczba polubień: 2
+              </p>
+              <p class="ps-4 pe-2"> 
+                <span class="fw-bold">Will Smith:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque voluptatum doloremque similique eligendi temporibus excepturi officia commodi neque cum accusantium.sit amet consectetur adipisicing elit. Atque voluptatum doloremque similique eligendi temporibus excepturi officia commodi neque cum accusantium! <span class="grey">więcej</span>
+              </p>
+              <p class="flex justify-content-start ps-4 mt-5 pt-5 border-top-grey">
+                <img src="images/icons/smile.svg" alt="">
+                <input class="form-control ms-2"  id="send-message-input" placeholder="Dodaj komentarz...">
+              </p>
+            </div>
+            <div class="load-more border-grey mb-5">
+              <p class="text-center fw-bold ">Załaduj więcej...</p>
+            </div>
+            <div class="grey footer">
+              <ul class="flex justify-content-start ps-0 fs10">
+                <li class="ms-0">Informacje</li>
+                <li>Pomoc</li>
+                <li>Prasa</li>
+                <li>Regulamin</li>
+                <li>Lokalizacje</li>
+                <li>Język</li>
+                <li>Pomoc</li>
+              </ul>
+              <p class="mt-3 fs10">
+                &#169; 2022 Shopstagram
+              </p>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="flex space-between">
+              <div class="flex ">
+                <img class="border-radius" width="50px" src="images/users/user.jpeg" alt="">
+                <div class="mt-2 ms-2">
+                  <span class="fw-bold">Mark_Shoper</span> <br>
+                  <span class="grey ">Mark Shopson</span>
+                </div>               
+              </div>
+              <span class="fw-bold blue font-14">
+                Przełącz
+              </span>
+            </div>
+            <p class="flex space-between mt-5">
+              <span class="grey">Propozycje dla Ciebie</span>
+              <span class="fw-bold">Zobacz wszystkie</span>
+            </p>
+            <div class="flex space-between">
+              <div class="flex ">
+                <img class="border-radius" width="40px" src="images/users/joshua.jpeg" alt="">
+                <div class="mt-2 ms-2 text-start">
+                  <span class="fw-bold">Joshua Deep</span> <br>
+                  <span class="grey ">Nowy na Instagramie</span>
+                </div>               
+              </div>
+              <span class="fw-bold blue">
+                Obserwuj
+              </span>
+            </div>
+            <div class="flex space-between mt-3">
+              <div class="flex ">
+                <img class="border-radius border-pink" width="40px" src="images/users/sophie.jpeg" alt="">
+                <div class="mt-2 ms-2 text-start">
+                  <span class="fw-bold">Sophie Lee</span> <br>
+                  <span class="grey ">Obserwowana przez John</span>
+                </div>               
+              </div>
+              <span class="fw-bold blue">
+                Obserwuj
+              </span>
+            </div>
+            <div class="flex space-between mt-3">
+              <div class="flex ">
+                <img class="border-radius" width="40px" src="images/users/betty.jpeg" alt="">
+                <div class="mt-2 ms-2 text-start">
+                  <span class="fw-bold">Ugly Betty</span> <br>
+                  <span class="grey ">Obserwowana przez Mark</span>
+                </div>               
+              </div>
+              <span class="fw-bold blue">
+                Obserwuj
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
