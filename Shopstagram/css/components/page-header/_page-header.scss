@@ -1,0 +1,54 @@
+$page-header-border-size: 1px !default;
+$page-header-border-color: #dbdbdb !default;
+
+.page-header {
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0 10px #ccc;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    background-color: #ffffff;
+    border-bottom: $page-header-border-size solid $page-header-border-color;
+}
+
+.page-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header__logo {
+    flex-shrink: 0;
+}
+
+.page-header__logo img {
+    display: block;
+}
+
+.page-header__search {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .page-header__search {
+        display: block;
+    }
+}
+
+/* PAGE NAV */
+.page-nav {
+    display: flex;
+}
+
+.page-nav__item  {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.page-nav__item:last-child {
+    margin-right: 0;
+}
+
+.page-nav__item img {
+    display: block;
+}

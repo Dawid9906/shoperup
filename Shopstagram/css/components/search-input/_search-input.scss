@@ -1,0 +1,13 @@
+.search-input {
+    transition: border 1s ease;
+    min-width: 250px;
+    background: #efefef url(../images/icons/magnifier.svg) no-repeat 10px center;
+    background-size: 16px;
+    padding-left: 34px;
+    font-size: 14px;
+
+    &:hover {
+        border: 2px solid #DD2A7C;
+        padding-left: 32px;
+    }
+}
