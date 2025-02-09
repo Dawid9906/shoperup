@@ -1,0 +1,7 @@
+.input-group {
+  width: 20% !important;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
