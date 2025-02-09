@@ -408,7 +408,6 @@ input:focus {
   }
 }
 .page-header {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   box-shadow: 10px 0 10px #ccc;
@@ -661,16 +660,18 @@ input:focus {
 
 .page-footer__nav a:last-child {
   margin-right: 0;
-} /*# sourceMappingURL=style.css.map */
+}
+
 .z-1 {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background-color: rgb(85, 85, 85, 0);
+  background-color: rgba(85, 85, 85, 0);
   position: absolute;
   top: 0;
   animation: changeBackground 3s ease-in-out forwards;
 }
+
 @keyframes changeBackground {
   0% {
     background-color: rgba(0, 0, 0, 0);
@@ -691,6 +692,7 @@ input:focus {
   padding: 10px;
   text-align: center;
 }
+
 @keyframes slideIn {
   0% {
     right: -250px;
@@ -703,6 +705,7 @@ input:focus {
 .d-none {
   display: none !important;
 }
+
 #load-more {
   text-align: center;
-}
+} /*# sourceMappingURL=style.css.map */
